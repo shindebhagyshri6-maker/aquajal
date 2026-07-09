@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Premium SEO Meta Tags -->
+    <title>Best RO Service & Water Purifier Repair in Mumbai | Aqua Pure Jal</title>
+    <meta name="description" content="Looking for trusted water purifier repair or RO service in Mumbai, Mira Road, Borivali, or Andheri? Aqua Pure Jal offers same-day doorstep repair, genuine spares, and affordable AMC plans for Kent, Aquaguard, and more.">
+    <meta name="keywords" content="RO Service Mumbai, RO Repair Mira Road, Kent Service Bhayander, AO Smith Repair Borivali, Water Purifier AMC Mumbai, Aquaguard Service Near Me, RO Installation Mumbai">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Best RO Service & Water Purifier Repair in Mumbai | Aqua Pure Jal">
+    <meta property="og:description" content="Expert doorstep water purifier repair, installation, and AMC services across Mumbai and Western Suburbs. Same-day service with genuine parts.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1585832770485-e386d405094a?auto=format&fit=crop&w=1200&q=80">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Trusted Water Purifier Service & Repair Experts">
+    <meta name="twitter:description" content="Professional RO, UV & Water Purifier Repair Services at Your Doorstep in Mumbai.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0077B6',
+                        secondary: '#00B4D8',
+                        accent: '#48CAE4',
+                        whatsapp: '#25D366',
+                        darkBg: '#0B0F19',
+                        darkCard: '#1E293B'
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        display: ['Poppins', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Alpine.js for Micro-interactions -->
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+    <!-- Schema.org Local Business Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "HomeAndConstructionBusiness",
+      "name": "Aqua Pure Jal",
+      "image": "https://images.unsplash.com/photo-1585832770485-e386d405094a?auto=format&fit=crop&w=600&q=80",
+      "telephone": "+919999999999",
+      "priceRange": "₹299 - ₹6999",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Mira Road, Mumbai Suburbs",
+        "addressRegion": "MH",
+        "addressCountry": "IN"
+      },
+      "areaServed": ["Mumbai", "Mira Road", "Bhayander", "Borivali", "Kandivali", "Malad", "Jogeshwari", "Goregaon", "Andheri"]
+    }
+    </script>
+
+    <style>
+        .glass {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+        }
+        .dark .glass {
+            background: rgba(30, 41, 59, 0.7);
+        }
+        .hide-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .hide-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+</head>
+<body x-data="{ darkMode: false, scaffoldLoading: false }" :class="{ 'dark': darkMode }" class="bg-slate-50 text-slate-900 dark:bg-darkBg dark:text-slate-100 font-sans antialiased transition-colors duration-300">
+
+    <!-- Scroll Progress Bar -->
+    <div class="fixed top-0 left-0 z-50 h-1 bg-gradient-to-r from-primary to-accent transition-all duration-100" id="scroll-progress"></div>
+
+    <!-- Floating Global CTAs -->
+    <div class="fixed bottom-6 right-6 z-50 flex flex-col gap-3">
+        <a href="tel:+919999999999" class="w-14 h-14 bg-primary text-white rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform duration-300" title="Call Now">
+            <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.714-7.78-4.484-8.866.158-.077 2.135-1.033 2.135-1.033l-3.522-6.796-2.135 1.034c-4.17 2.019-2.229 12.164 4.3 19.349 6.53 7.185 15.56 5.12 19.729 3.102l-4.173-2.006z"/></svg>
+        </a>
+        <a href="https://wa.me/919999999999?text=Hi%20Aqua%20Pure%20Jal,%20I%20want%20to%20book%20a%20service." target="_blank" rel="noopener noreferrer" class="w-14 h-14 bg-whatsapp text-white rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform duration-300" title="WhatsApp Support">
+            <svg class="w-7 h-7 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.713-1.457L0 24zm6.59-4.846c1.6.95 3.488 1.449 5.413 1.451 5.428 0 9.847-4.416 9.85-9.847.002-2.63-1.023-5.101-2.885-6.963C17.16 1.93 14.69 .904 12.008.904c-5.433 0-9.851 4.418-9.855 9.852-.001 1.925.501 3.808 1.458 5.41l-.997 3.644 3.733-.979z"/></svg>
+        </a>
+    </div>
+
+    <!-- Sticky Header -->
+    <header class="sticky top-0 z-40 w-full border-b border-slate-200/80 dark:border-slate-800/80 glass transition-colors">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div class="flex items-center gap-2">
+                <div class="w-10 h-10 bg-primary rounded-xl flex items-center justify-center text-white font-bold text-xl shadow-md">A</div>
+                <span class="font-display font-bold text-xl tracking-tight text-slate-900 dark:text-white">AQUA PURE JAL</span>
+            </div>
+            
+            <nav class="hidden md:flex items-center gap-8 font-medium text-sm text-slate-600 dark:text-slate-300">
+                <a href="#services" class="hover:text-primary transition-colors">Services</a>
+                <a href="#amc" class="hover:text-primary transition-colors">AMC Plans</a>
+                <a href="#how-it-works" class="hover:text-primary transition-colors">How It Works</a>
+                <a href="#faqs" class="hover:text-primary transition-colors">FAQs</a>
+                <a href="#blog" class="hover:text-primary transition-colors">Insights</a>
+            </nav>
+
+            <div class="flex items-center gap-4">
+                <!-- Dark Mode Toggle -->
+                <button @click="darkMode = !darkMode" class="p-2.5 rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:scale-105 transition-all" aria-label="Toggle Theme">
+                    <svg x-show="!darkMode" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path></svg>
+                    <svg x-show="darkMode" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707M16.243 17.657l.707.707M6.343 4.343l.707.707M12 7a5 5 0 110 10 5 5 0 010-10z"></path></svg>
+                </button>
+                <a href="#book-now" class="hidden sm:inline-flex items-center justify-center px-5 py-2.5 rounded-xl bg-primary text-white font-semibold text-sm shadow-md hover:bg-primary/90 transition-all">Book Service</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative min-h-[calc(100vh-5rem)] flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8 overflow-hidden bg-gradient-to-b from-blue-50/50 to-transparent dark:from-slate-900/20">
+        <div class="max-w-7xl w-full grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div class="space-y-6 text-center lg:text-left">
+                <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-primary/10 text-primary dark:bg-primary/20 dark:text-accent border border-primary/20">
+                    ⚡ Same Day Service Guaranteed
+                </span>
+                <h1 class="font-display text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-slate-900 dark:text-white leading-tight">
+                    Trusted Water Purifier <br class="hidden sm:block">
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">Service & Repair</span> Experts
+                </h1>
+                <p class="text-lg text-slate-600 dark:text-slate-300 max-w-xl mx-auto lg:mx-0">
+                    Professional RO, UV & Water Purifier Repair Services at Your Doorstep. Safeguarding health across Mumbai & Western Suburbs.
+                </p>
+                <div class="pt-4 flex flex-wrap justify-center lg:justify-start gap-4">
+                    <a href="#book-now" class="px-8 py-4 rounded-xl bg-primary text-white font-semibold shadow-lg hover:-translate-y-0.5 transition-transform duration-200">Book Service</a>
+                    <a href="https://wa.me/919999999999" target="_blank" class="px-8 py-4 rounded-xl bg-whatsapp text-white font-semibold shadow-lg flex items-center gap-2 hover:-translate-y-0.5 transition-transform duration-200">
+                        WhatsApp Now
+                    </a>
+                    <a href="tel:+919999999999" class="px-8 py-4 rounded-xl bg-slate-200 dark:bg-slate-800 text-slate-800 dark:text-slate-200 font-semibold hover:-translate-y-0.5 transition-transform duration-200">Call Now</a>
+                </div>
+            </div>
+            <div class="relative w-full h-[350px] sm:h-[450px] rounded-3xl overflow-hidden shadow-2xl border border-white/20">
+                <img src="https://images.unsplash.com/photo-1585832770485-e386d405094a?auto=format&fit=crop&w=800&q=80" alt="Family Clean Drinking Water RO Purifier" class="w-full h-full object-cover">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Badges Section -->
+    <section class="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-y border-slate-200/60 dark:border-slate-800/60">
+        <div class="grid grid-cols-2 lg:grid-cols-6 gap-6 text-center">
+            <div class="p-4 rounded-2xl bg-white dark:bg-darkCard shadow-sm border border-slate-100 dark:border-slate-800">
+                <div class="text-3xl mb-2">⏱️</div>
+                <h3 class="font-semibold text-sm">Same Day Service</h3>
+            </div>
+            <div class="p-4 rounded-2xl bg-white dark:bg-darkCard shadow-sm border border-slate-100 dark:border-slate-800">
+                <div class="text-3xl mb-2">🎖️</div>
+                <h3 class="font-semibold text-sm">Certified Pros</h3>
+            </div>
+            <div class="p-4 rounded-2xl bg-white dark:bg-darkCard shadow-sm border border-slate-100 dark:border-slate-800">
+                <div class="text-3xl mb-2">⚙️</div>
+                <h3 class="font-semibold text-sm">Genuine Spares</h3>
+            </div>
+            <div class="p-4 rounded-2xl bg-white dark:bg-darkCard shadow-sm border border-slate-100 dark:border-slate-800">
+                <div class="text-3xl mb-2">💳</div>
+                <h3 class="font-semibold text-sm">Affordable AMC</h3>
+            </div>
+            <div class="p-4 rounded-2xl bg-white dark:bg-darkCard shadow-sm border border-slate-100 dark:border-slate-800">
+                <div class="text-3xl mb-2">💎</div>
+                <h3 class="font-semibold text-sm">All Brands</h3>
+            </div>
+            <div class="p-4 rounded-2xl bg-white dark:bg-darkCard shadow-sm border border-slate-100 dark:border-slate-800">
+                <div class="text-3xl mb-2">✨</div>
+                <h3 class="font-semibold text-sm">100% Satisfaction</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+            <h2 class="font-display text-3xl sm:text-4xl font-bold tracking-tight">Our Premium Service Portfolio</h2>
+            <p class="mt-4 text-slate-600 dark:text-slate-400">Complete, professional engineering coverage for multi-stage RO, UV, and UF water purification systems.</p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Services Matrix Base Struct Container Cards -->
+            <template x-for="service in [
+                { title: 'RO Installation', icon: '🔧', desc: 'Secure mounting, plumbing configuration, pressure assessment, and baseline parameter setting.' },
+                { title: 'RO Repair Service', icon: '🛠️', desc: 'Comprehensive multi-point diagnostics, electrical fault clearing, and circuit optimizations.' },
+                { title: 'Annual Maintenance (AMC)', icon: '📅', desc: 'Predictive protection agreements keeping filtering arrays calibrated perfectly year-round.' },
+                { title: 'Filter Replacement', icon: '🚰', desc: 'Replacing carbon matrix block and sediment pre-candles to ensure absolute clarity.' },
+                { title: 'Membrane Replacement', icon: '🧬', desc: 'Replacing high-TDS structural reverse osmosis membranes to restore absolute purification.' },
+                { title: 'UV Lamp Realignment', icon: '💡', desc: 'Diagnostics and structural alignment of germicidal rays for biological destruction.' },
+                { title: 'Leakage Interception', icon: '💧', desc: 'Remediation of high-pressure connector breaks and structural enclosure cracking.' },
+                { title: 'Water Quality Mapping', icon: '🧪', desc: 'Chemical, composition, and multi-stage electronic TDS analytical metric validation.' },
+                { title: 'Emergency Dispatch', icon: '🚨', desc: 'Rapid priority mobilization targeting residential system failures in under 2 hours.' }
+            ]">
+                <div class="p-8 rounded-3xl bg-white dark:bg-darkCard border border-slate-100 dark:border-slate-800/60 shadow-md hover:shadow-xl transition-all duration-300 flex flex-col justify-between group">
+                    <div>
+                        <div class="w-12 h-12 rounded-xl bg-primary/10 text-primary flex items-center justify-center text-xl font-bold mb-6 group-hover:scale-110 transition-transform" x-text="service.icon"></div>
+                        <h3 class="font-display text-xl font-bold mb-3" x-text="service.title"></h3>
+                        <p class="text-sm text-slate-600 dark:text-slate-400 leading-relaxed" x-text="service.desc"></p>
+                    </div>
+                    <div class="pt-6">
+                        <a href="#book-now" class="text-sm font-semibold text-primary hover:text-secondary flex items-center gap-1">
+                            Book This Service <span>&rarr;</span>
+                        </a>
+                    </div>
+                </div>
+            </template>
+        </div>
+    </section>
+
+    <!-- Supported Brands Track Section -->
+    <section class="py-12 bg-white dark:bg-slate-900 border-y border-slate-200/60 dark:border-slate-800/60 overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 mb-6 text-center">
+            <p class="text-xs uppercase tracking-widest font-bold text-slate-400">Expertly Servicing All Industry Brands</p>
+        </div>
+        <div class="flex gap-12 animate-marquee items-center whitespace-nowrap overflow-x-auto hide-scrollbar px-4 py-2">
+            <template x-for="brand in ['Kent', 'Aquaguard', 'Pureit', 'AO Smith', 'Livpure', 'Blue Star', 'Whirlpool', 'LG', 'Panasonic']">
+                <span class="text-xl font-display font-bold text-slate-400/80 dark:text-slate-600 px-6 py-2 bg-slate-50 dark:bg-darkCard rounded-xl border border-slate-100 dark:border-slate-800" x-text="brand"></span>
+            </template>
+        </div>
+    </section>
+
+    <!-- AMC Management Plans Tier Cards -->
+    <section id="amc" class="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+            <h2 class="font-display text-3xl sm:text-4xl font-bold tracking-tight">Predictive Protection AMC Plans</h2>
+            <p class="mt-4 text-slate-600 dark:text-slate-400">Lock in absolute safety metrics for your residential drinking network while bypassing premium repair callout bills.</p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-stretch">
+            <!-- Basic Plan -->
+            <div class="p-8 rounded-3xl bg-white dark:bg-darkCard border border-slate-100 dark:border-slate-800 shadow-md flex flex-col justify-between">
+                <div>
+                    <h3 class="text-lg font-bold text-slate-500 uppercase tracking-wider">Basic Plan</h3>
+                    <div class="mt-4 text-4xl font-bold font-display">₹2,499<span class="text-sm text-slate-400 font-normal">/yr</span></div>
+                    <ul class="mt-8 space-y-4 text-sm text-slate-600 dark:text-slate-400">
+                        <li class="flex items-center gap-2">🔹 3 Maintenance Checkups</li>
+                        <li class="flex items-center gap-2">🔹 Free Pre-Filter Candle</li>
+                        <li class="flex items-center gap-2">🔹 Zero General Labor Fees</li>
+                        <li class="flex items-center gap-2 text-slate-300 line-through">🔹 Critical Membrane Coverage</li>
+                    </ul>
+                </div>
+                <a href="#book-now" class="mt-8 w-full py-3 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-primary hover:text-white transition-all text-center font-semibold text-sm block">Choose Basic</a>
+            </div>
+
+            <!-- Standard -->
+            <div class="p-8 rounded-3xl bg-white dark:bg-darkCard border-2 border-primary shadow-xl flex flex-col justify-between relative transform lg:-translate-y-2">
+                <div class="absolute top-0 right-8 transform -translate-y-1/2 bg-primary text-white text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full">Most Popular</div>
+                <div>
+                    <h3 class="text-lg font-bold text-primary uppercase tracking-wider">Standard Plan</h3>
+                    <div class="mt-4 text-4xl font-bold font-display">₹4,499<span class="text-sm text-slate-400 font-normal">/yr</span></div>
+                    <ul class="mt-8 space-y-4 text-sm text-slate-600 dark:text-slate-400">
+                        <li class="flex items-center gap-2">🔹 4 Comprehensive Visits</li>
+                        <li class="flex items-center gap-2">🔹 Full Inline Sediment/Carbon Change</li>
+                        <li class="flex items-center gap-2">🔹 1 Membrane Descaling Service</li>
+                        <li class="flex items-center gap-2">🔹 Electrical Component Warranties</li>
+                    </ul>
+                </div>
+                <a href="#book-now" class="mt-8 w-full py-3 rounded-xl bg-primary text-white transition-all text-center font-semibold text-sm block shadow-md hover:bg-primary/90">Choose Standard</a>
+            </div>
+
+            <!-- Premium -->
+            <div class="p-8 rounded-3xl bg-white dark:bg-darkCard border border-slate-100 dark:border-slate-800 shadow-md flex flex-col justify-between">
+                <div>
+                    <h3 class="text-lg font-bold text-purple-500 uppercase tracking-wider">Premium Plan</h3>
+                    <div class="mt-4 text-4xl font-bold font-display">₹6,999<span class="text-sm text-slate-400 font-normal">/yr</span></div>
+                    <ul class="mt-8 space-y-4 text-sm text-slate-600 dark:text-slate-400">
+                        <li class="flex items-center gap-2">🔹 Unlimited Free Emergency Requests</li>
+                        <li class="flex items-center gap-2">🔹 Full Filter Set & Membrane Included</li>
+                        <li class="flex items-center gap-2">🔹 Free Booster Pump Coverage</li>
+                        <li class="flex items-center gap-2">🔹 Free Multi-Stage Lab-Grade Testing</li>
+                    </ul>
+                </div>
+                <a href="#book-now" class="mt-8 w-full py-3 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-primary hover:text-white transition-all text-center font-semibold text-sm block">Choose Premium</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Operational Lifecycle Timeline -->
+    <section id="how-it-works" class="py-24 bg-white dark:bg-slate-900/40 border-y border-slate-200/60 dark:border-slate-800/60">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 class="font-display text-3xl font-bold">Seamless Service Lifespans</h2>
+                <p class="mt-2 text-slate-600 dark:text-slate-400">Our simple, 4-step dispatch framework designed for busy homeowners.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 relative">
+                <div class="text-center">
+                    <div class="w-12 h-12 rounded-full bg-primary text-white font-bold flex items-center justify-center mx-auto text-lg shadow-md mb-4">1</div>
+                    <h3 class="font-bold text-lg mb-1">Book Service</h3>
+                    <p class="text-sm text-slate-500">Submit parameters online or via continuous WhatsApp lines.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-12 h-12 rounded-full bg-primary text-white font-bold flex items-center justify-center mx-auto text-lg shadow-md mb-4">2</div>
+                    <h3 class="font-bold text-lg mb-1">Tech Assigned</h3>
+                    <p class="text-sm text-slate-500">A local certified professional accepts and prepares genuine components.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-12 h-12 rounded-full bg-primary text-white font-bold flex items-center justify-center mx-auto text-lg shadow-md mb-4">3</div>
+                    <h3 class="font-bold text-lg mb-1">Doorstep Visit</h3>
+                    <p class="text-sm text-slate-500">Prompt arrival within your selected time window with clean diagnostics.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-12 h-12 rounded-full bg-green-500 text-white font-bold flex items-center justify-center mx-auto text-lg shadow-md mb-4">4</div>
+                    <h3 class="font-bold text-lg mb-1">Problem Solved</h3>
+                    <p class="text-sm text-slate-500">Testing verified via independent TDS diagnostic instruments.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- High Conversion Booking Interface -->
+    <section id="book-now" class="py-24 max-w-4xl mx-auto px-4">
+        <div class="p-8 sm:p-12 rounded-3xl bg-white dark:bg-darkCard shadow-xl border border-slate-100 dark:border-slate-800 relative" x-data="{
+            name: '', phone: '', address: '', brand: 'Kent', serviceType: 'RO Repair', problem: '', date: '',
+            isSubmitting: false, isSuccess: false,
+            submitForm() {
+                this.isSubmitting = true;
+                setTimeout(() => {
+                    this.isSubmitting = false;
+                    this.isSuccess = true;
+                    const msg = `*NEW BOOKING - AQUA PURE JAL*%0A%0A*Name:* ${encodeURIComponent(this.name)}%0A*Phone:* ${encodeURIComponent(this.phone)}%0A*Service:* ${encodeURIComponent(this.serviceType)}%0A*Brand:* ${encodeURIComponent(this.brand)}%0A*Date:* ${encodeURIComponent(this.date)}%0A*Address:* ${encodeURIComponent(this.address)}%0A*Problem:* ${encodeURIComponent(this.problem)}`;
+                    window.open(`https://wa.me/919999999999?text=${msg}`, '_blank');
+                }, 1000);
+            }
+        }">
+            <h2 class="font-display text-3xl font-bold text-center mb-2">Schedule Doorstep Service</h2>
+            <p class="text-sm text-slate-500 text-center mb-8">No pre-payment required. Pay securely after your service is completed.</p>
+            
+            <form @submit.prevent="submitForm()" class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <div>
+                    <label class="block text-xs font-bold uppercase tracking-wider text-slate-500 mb-2">Your Name</label>
+                    <input required x-model="name" type="text" class="w-full px-4 py-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-transparent focus:ring-2 focus:ring-primary outline-none transition-all">
+                </div>
+                <div>
+                    <label class="block text-xs font-bold uppercase tracking-wider text-slate-500 mb-2">Phone Number</label>
+                    <input required x-model="phone" type="tel" pattern="[0-9]{10}" placeholder="10-digit mobile" class="w-full px-4 py-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-transparent focus:ring-2 focus:ring-primary outline-none transition-all">
+                </div>
+                <div class="sm:col-span-2">
+                    <label class="block text-xs font-bold uppercase tracking-wider text-slate-500 mb-2">Service Address</label>
+                    <input required x-model="address" type="text" placeholder="Building, Street, Area" class="w-full px-4 py-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-transparent focus:ring-2 focus:ring-primary outline-none transition-all">
+                </div>
+                <div>
+                    <label class="block text-xs font-bold uppercase tracking-wider text-slate-500 mb-2">Purifier Brand</label>
+                    <select x-model="brand" class="w-full px-4 py-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 focus:ring-2 focus:ring-primary outline-none transition-all">
+                        <option>Kent</option><option>Aquaguard</option><option>Pureit</option><option>AO Smith</option><option>Livpure</option><option>Blue Star</option><option>LG</option><option>Other</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="block text-xs font-bold uppercase tracking-wider text-slate-500 mb-2">Service Needed</label>
+                    <select x-model="serviceType" class="w-full px-4 py-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 focus:ring-2 focus:ring-primary outline-none transition-all">
+                        <option>RO Repair</option><option>RO Installation</option><option>Annual Maintenance (AMC)</option><option>Filter Replacement</option><option>Leakage Fix</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="block text-xs font-bold uppercase tracking-wider text-slate-500 mb-2">Preferred Appointment Date</label>
+                    <input required x-model="date" type="date" class="w-full px-4 py-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-transparent focus:ring-2 focus:ring-primary outline-none transition-all">
+                </div>
+                <div>
+                    <label class="block text-xs font-bold uppercase tracking-wider text-slate-500 mb-2">Describe the Problem</label>
+                    <input x-model="problem" type="text" placeholder="e.g., Water tastes bad, leaking" class="w-full px-4 py-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-transparent focus:ring-2 focus:ring-primary outline-none transition-all">
+                </div>
+                <button type="submit" class="sm:col-span-2 w-full py-4 bg-primary text-white font-bold rounded-xl shadow-lg hover:bg-primary/90 transition-all flex items-center justify-center gap-2">
+                    <span x-show="!isSubmitting">Confirm via WhatsApp &rarr;</span>
+                    <span x-show="isSubmitting" class="animate-spin inline-block w-4 h-4 border-2 border-white border-t-transparent rounded-full"></span>
+                </form>
+
+            <!-- Success Overlay Screen Component Layer -->
+            <div x-show="isSuccess" class="absolute inset-0 bg-white/95 dark:bg-darkCard/95 rounded-3xl flex flex-col items-center justify-center p-6 text-center z-10" style="display:none;">
+                <div class="w-16 h-16 bg-green-100 dark:bg-green-900/30 text-green-600 dark:text-green-400 rounded-full flex items-center justify-center text-3xl mb-4">✓</div>
+                <h3 class="text-2xl font-bold">Connecting to WhatsApp Support...</h3>
+                <p class="text-sm text-slate-500 max-w-xs mt-2">Your data is prepared. If the WhatsApp application does not open automatically, click the floating green badge below.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Regional Service Matrix Coverage Grid Mapping Group -->
+    <section class="py-16 bg-slate-100 dark:bg-slate-900/60 border-y border-slate-200/60 dark:border-slate-800/60">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="font-display text-2xl font-bold mb-4">Our Primary Service Hubs</h2>
+            <p class="text-sm text-slate-500 max-w-xl mx-auto mb-10">Deploying certified field service vehicles across major Western transit vectors daily.</p>
+            <div class="flex flex-wrap justify-center gap-3">
+                <template x-for="loc in ['Mumbai', 'Mira Road', 'Bhayander', 'Borivali', 'Kandivali', 'Malad', 'Jogeshwari', 'Goregaon', 'Andheri']">
+                    <span class="px-4 py-2.5 bg-white dark:bg-darkCard text-sm font-semibold rounded-xl border border-slate-200/40 dark:border-slate-800 shadow-sm" x-text="loc"></span>
+                </template>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Slider -->
+    <section class="py-24 max-w-6xl mx-auto px-4" x-data="{ active: 0, total: 3 }">
+        <h2 class="font-display text-3xl font-bold text-center mb-12">What Our Customers Say</h2>
+        <div class="relative overflow-hidden rounded-3xl bg-white dark:bg-darkCard p-8 sm:p-12 border border-slate-100 dark:border-slate-800 shadow-md">
+            
+            <div class="space-y-4" x-show="active === 0">
+                <div class="text-yellow-400 text-xl">⭐⭐⭐⭐⭐</div>
+                <p class="text-lg italic text-slate-600 dark:text-slate-300">"Excellent service by Aqua Pure Jal team! Our Aquaguard was leaking heavily. The technician arrived in Mira Road within 2 hours and replaced the cracked connector line immediately. Reasonable rates."</p>
+                <div>
+                    <h4 class="font-bold">Rahul Sharma</h4>
+                    <span class="text-xs text-slate-400">Mira Road, Mumbai</span>
+                </div>
+            </div>
+
+            <div class="space-y-4" x-show="active === 1" style="display:none;">
+                <div class="text-yellow-400 text-xl">⭐⭐⭐⭐⭐</div>
+                <p class="text-lg italic text-slate-600 dark:text-slate-300">"Opted for their Standard AMC plan for our Kent RO in Andheri. The technicians are professional, test water TDS metrics right in front of you, and never force unneeded spare replacements."</p>
+                <div>
+                    <h4 class="font-bold">Priya Desai</h4>
+                    <span class="text-xs text-slate-400">Andheri West, Mumbai</span>
+                </div>
+            </div>
+
+            <div class="space-y-4" x-show="active === 2" style="display:none;">
+                <div class="text-yellow-400 text-xl">⭐⭐⭐⭐⭐</div>
+                <p class="text-lg italic text-slate-600 dark:text-slate-300">"Super fast response time. Called them for a complete filter change in Borivali on a Sunday morning. Clean work, original parts, and smooth tracking update."</p>
+                <div>
+                    <h4 class="font-bold">Amit Patel</h4>
+                    <span class="text-xs text-slate-400">Borivali East, Mumbai</span>
+                </div>
+            </div>
+
+            <div class="flex justify-end gap-2 mt-8">
+                <button @click="active = active === 0 ? total - 1 : active - 1" class="w-10 h-10 bg-slate-100 dark:bg-slate-800 rounded-full flex items-center justify-center font-bold hover:bg-primary hover:text-white transition-all">&larr;</button>
+                <button @click="active = active === total - 1 ? 0 : active + 1" class="w-10 h-10 bg-slate-100 dark:bg-slate-800 rounded-full flex items-center justify-center font-bold hover:bg-primary hover:text-white transition-all">&rarr;</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Extensive Structured Programmatic Accordion Matrix (20 FAQs) -->
+    <section id="faqs" class="py-24 max-w-4xl mx-auto px-4 border-t border-slate-200/60 dark:border-slate-800/60">
+        <h2 class="font-display text-3xl font-bold text-center mb-12">Frequently Asked Questions</h2>
+        
+        <div class="space-y-4" x-data="{ activeFaq: null }">
+            <template x-for="(faq, index) in [
+                { q: 'How long does a standard RO repair session take?', a: 'Most common repairs, component swaps, or filter overhauls are fully resolved within 45 to 60 minutes once our engineer completes the system diagnostic assessment.' },
+                { q: 'What areas do you service?', a: 'We serve Mumbai and the Western Suburbs, including Mira Road, Bhayander, Borivali, Kandivali, Malad, Jogeshwari, Goregaon, and Andheri.' },
+                { q: 'Are your technicians certified?', a: 'Yes, all our engineers have formal field certifications and years of experience repairing multi-stage filtration systems.' },
+                { q: 'Do you offer a service warranty?', a: 'Yes, all genuine spare parts supplied and installed by Aqua Pure Jal carry a structural operational warranty.' },
+                { q: 'How often should I change my filters?', a: 'Standard sediment and inline carbon filters should generally be replaced every 6 to 12 months depending on your local input water quality.' },
+                { q: 'What is an AMC plan?', a: 'An Annual Maintenance Contract (AMC) covers scheduled checkups, filter replacements, and breakdown visits under a single yearly rate.' },
+                { q: 'Why does my RO machine make a loud noise?', a: 'Vibrations or noise usually indicate air pockets inside the filter blocks or a worn-out internal booster pump.' },
+                { q: 'Can you repair models with a smart touch display?', a: 'Yes, our team is equipped to diagnose digital control boards and sensor arrays across modern smart systems.' },
+                { q: 'What should I do if my water purifier is leaking?', a: 'Turn off the water supply valve connected to the system, unplug the power adapter, and call our emergency dispatch team immediately.' },
+                { q: 'Is water quality testing included in your visits?', a: 'Yes, our team carries electronic TDS testing meters to verify water metrics before and after every service.' },
+                { q: 'Why is the taste of my RO water bitter?', a: 'A bitter or sour taste usually means the filtration layers or reverse osmosis membrane need replacement.' },
+                { q: 'What is the role of a UV lamp?', a: 'The UV lamp neutralizes bacteria, viruses, and other biological contaminants by disrupting their DNA.' },
+                { q: 'How do I choose the right AMC package?', a: 'Our Basic plan works well for light usage; choose Standard or Premium if you have heavy sediment or want full component coverage.' },
+                { q: 'Do you charge a visiting fee if I do not choose a repair service?', a: 'We charge a minimal diagnostic visit fee to cover travel costs if you choose not to go ahead with the repair.' },
+                { q: 'Do you use genuine spare parts?', a: 'We use only certified, high-grade, compatible spare components to guarantee system longevity.' },
+                { q: 'Can you relocate my water purifier to a new home?', a: 'Yes, we provide neat uninstallation and safe re-installation at your new address.' },
+                { q: 'Why is my RO storage tank filling slowly?', a: 'Slow filling is typically caused by clogged pre-filters or drops in input tap water pressure.' },
+                { q: 'Can an RO filter reduce heavy metals?', a: 'Yes, the high-density semi-permeable membrane reduces heavy materials like lead, arsenic, and mercury.' },
+                { q: 'Do you support lesser-known brands?', a: 'Yes, we service almost all domestic and commercial brands available in the market.' },
+                { q: 'How can I pay for my service?', a: 'We accept cash, UPI, Google Pay, PhonePe, and online bank transfers directly after completion.' }
+            ]">
+                <div class="border border-slate-200/60 dark:border-slate-800 rounded-2xl bg-white dark:bg-darkCard overflow-hidden transition-all">
+                    <button @click="activeFaq = (activeFaq === index) ? null : index" class="w-full px-6 py-4 text-left font-semibold flex justify-between items-center text-sm sm:text-base gap-4">
+                        <span x-text="faq.q"></span>
+                        <span class="text-xl text-primary font-mono" x-text="activeFaq === index ? '−' : '+'"></span>
+                    </button>
+                    <div x-show="activeFaq === index" x-collapse class="px-6 pb-5 text-sm text-slate-500 leading-relaxed border-t border-slate-100 dark:border-slate-800/40 pt-3">
+                        <p x-text="faq.a"></p>
+                    </div>
+                </div>
+            </template>
+        </div>
+    </section>
+
+    <!-- SEO Ready Blog Section Component Grid Grid Template -->
+    <section id="blog" class="py-24 bg-slate-100 dark:bg-slate-900/40 border-t border-slate-200/60 dark:border-slate-800/60">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 class="font-display text-3xl font-bold">Latest Water Health Insights</h2>
+                <p class="text-sm text-slate-500 mt-2">Tips and guides from our master technicians on maintaining pristine home water quality.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white dark:bg-darkCard rounded-3xl border border-slate-200/40 dark:border-slate-800 shadow-sm overflow-hidden flex flex-col justify-between">
+                    <div>
+                        <div class="h-48 bg-slate-300 dark:bg-slate-700 relative">
+                            <img src="https://images.unsplash.com/photo-1523362628745-0c100150b504?auto=format&fit=crop&w=400&q=80" alt="Water Purification" class="w-full h-full object-cover">
+                        </div>
+                        <div class="p-6">
+                            <h3 class="font-bold text-lg mb-2">Why Periodic RO Maintenance Matters</h3>
+                            <p class="text-sm text-slate-500 leading-relaxed">Skipping regular maintenance reduces filter life and can impact water purity. Learn how routine care protects your family.</p>
+                        </div>
+                    </div>
+                    <div class="p-6 pt-0"><a href="#book-now" class="text-sm font-semibold text-primary">Read Article &rarr;</a></div>
+                </div>
+
+                <div class="bg-white dark:bg-darkCard rounded-3xl border border-slate-200/40 dark:border-slate-800 shadow-sm overflow-hidden flex flex-col justify-between">
+                    <div>
+                        <div class="h-48 bg-slate-300 dark:bg-slate-700 relative">
+                            <img src="https://images.unsplash.com/photo-1518081461904-9d8f136351c2?auto=format&fit=crop&w=400&q=80" alt="Filter Repair" class="w-full h-full object-cover">
+                        </div>
+                        <div class="p-6">
+                            <h3 class="font-bold text-lg mb-2">4 Signs Your Purifier Needs Attention</h3>
+                            <p class="text-sm text-slate-500 leading-relaxed">From a slow drop in flow rate to subtle changes in taste, look out for these indicators that your system needs a checkup.</p>
+                        </div>
+                    </div>
+                    <div class="p-6 pt-0"><a href="#book-now" class="text-sm font-semibold text-primary">Read Article &rarr;</a></div>
+                </div>
+
+                <div class="bg-white dark:bg-darkCard rounded-3xl border border-slate-200/40 dark:border-slate-800 shadow-sm overflow-hidden flex flex-col justify-between">
+                    <div>
+                        <div class="h-48 bg-slate-300 dark:bg-slate-700 relative">
+                            <img src="https://images.unsplash.com/photo-1609770231080-e321deccc34c?auto=format&fit=crop&w=400&q=80" alt="Water Testing" class="w-full h-full object-cover">
+                        </div>
+                        <div class="p-6">
+                            <h3 class="font-bold text-lg mb-2">Understanding TDS Levels in Drinking Water</h3>
+                            <p class="text-sm text-slate-500 leading-relaxed">What does Total Dissolved Solids mean for your health? Find out what levels are safe and when to use an RO system.</p>
+                        </div>
+                    </div>
+                    <div class="p-6 pt-0"><a href="#book-now" class="text-sm font-semibold text-primary">Read Article &rarr;</a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Detailed Footer Block Elements Section -->
+    <footer class="bg-slate-900 text-slate-400 py-16 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-4 gap-12">
+            <div class="space-y-4">
+                <div class="flex items-center gap-2 text-white font-bold text-lg">
+                    <div class="w-8 h-8 bg-primary rounded-lg flex items-center justify-center font-bold text-sm">A</div>
+                    <span>AQUA PURE JAL</span>
+                </div>
+                <p class="text-xs leading-relaxed">Your trusted, local partner for domestic and commercial water purifier installation, preventative repair, and AMC support across Mumbai suburbs.</p>
+            </div>
+            
+            <div>
+                <h4 class="text-white font-semibold text-sm uppercase tracking-wider mb-4">Our Services</h4>
+                <ul class="space-y-2 text-xs">
+                    <li><a href="#book-now" class="hover:text-white transition-colors">RO Repair & Overhauls</a></li>
+                    <li><a href="#book-now" class="hover:text-white transition-colors">Filter Replacements</a></li>
+                    <li><a href="#book-now" class="hover:text-white transition-colors">Membrane Diagnostics</a></li>
+                    <li><a href="#amc" class="hover:text-white transition-colors">Annual AMC Protection Packages</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="text-white font-semibold text-sm uppercase tracking-wider mb-4">Service Areas</h4>
+                <p class="text-xs leading-relaxed">Mira Road, Bhayander, Borivali, Kandivali, Malad, Jogeshwari, Goregaon, Andheri, and broader Mumbai areas.</p>
+            </div>
+
+            <div>
+                <h4 class="text-white font-semibold text-sm uppercase tracking-wider mb-4">Stay Informed</h4>
+                <p class="text-xs mb-3">Sign up for clean water tips and local service updates.</p>
+                <form @submit.prevent="alert('Thank you for subscribing!')" class="flex gap-2">
+                    <input required type="email" placeholder="Your Email" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-xs text-white focus:outline-none focus:border-primary">
+                    <button type="submit" class="bg-primary text-white text-xs font-semibold px-4 py-2 rounded-lg hover:bg-primary/90 transition-all">Join</button>
+                </form>
+            </div>
+        </div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12 pt-6 border-t border-slate-800/60 text-center text-xs flex flex-col sm:flex-row justify-between items-center gap-4">
+            <p>&copy; 2026 Aqua Pure Jal. All rights reserved.</p>
+            <div class="flex gap-4">
+                <a href="#book-now" class="hover:text-white">Privacy Policy</a>
+                <a href="#book-now" class="hover:text-white">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll Tracker Processing Logic script component -->
+    <script>
+        window.addEventListener('scroll', () => {
+            const winScroll = document.documentElement.scrollTop || document.body.scrollTop;
+            const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            const scrolled = (winScroll / height) * 100;
+            document.getElementById('scroll-progress').style.width = scrolled + '%';
+        });
+    </script>
+</body>
+</html>
